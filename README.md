@@ -5,6 +5,8 @@ O projeto é uma demonstração de aplicativo desktop desenvolvido com as tecnol
 
 A aplicação utiliza o HSQLDB (HyperSQL DataBase), um banco de dados relacional escrito em Java, adequado para projetos com propósitos de estudos.
 
+teste
+
 Essa aplicação disponibiliza um CRUD, com funcionalidades identicas do projeto swing-jpa-crud [https://github.com/yaw/swing-jpa-crud].
 Além de utilizar uma tecnologia padrão para o mapeamento objeto relacional (ORM), essa aplicação define a arquitetura MVC (Model View Controller) com um modelo de objetos flexível. Dessa forma o Spring é responsável por gerenciar e integrar (IoC) boa parte dos componentes MVC, com funcionalidades extra para otimizar o uso da JPA.
 
