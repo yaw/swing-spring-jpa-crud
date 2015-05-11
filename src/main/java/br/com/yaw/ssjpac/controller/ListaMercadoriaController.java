@@ -8,6 +8,8 @@ import javax.annotation.PostConstruct;
 import javax.swing.SwingUtilities;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.stereotype.Component;
 
 import br.com.yaw.ssjpac.action.AbstractAction;
@@ -40,6 +42,7 @@ import br.com.yaw.ssjpac.ui.SobreFrame;
  * @author YaW Tecnologia
  */
 @Component
+@Scope(proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class ListaMercadoriaController extends AbstractController {
 
 	@Autowired
