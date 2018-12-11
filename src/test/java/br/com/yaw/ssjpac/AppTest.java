@@ -1,14 +1,12 @@
 package br.com.yaw.ssjpac;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.Test;
 
 /**
  * Unit test for simple App.
  */
-public class AppTest 
-    extends TestCase
+public class AppTest  
 {
     /**
      * Create the test case
@@ -17,7 +15,7 @@ public class AppTest
      */
     public AppTest( String testName )
     {
-        super( testName );
+        //super( testName );
     }
 
     /**
@@ -25,7 +23,8 @@ public class AppTest
      */
     public static Test suite()
     {
-        return new TestSuite( AppTest.class );
+        //return new TestSuite( AppTest.class );
+        return null;
     }
 
     /**

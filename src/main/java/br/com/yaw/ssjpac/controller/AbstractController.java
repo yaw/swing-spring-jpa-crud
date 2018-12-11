@@ -50,11 +50,17 @@ public abstract class AbstractController implements ActionListener, WindowListen
 	 * Controller possui um auto-relacionamento, útil em situações aonde uma hierarquia de controladores deve ser respeitada.
 	 * @param parent controller <i>pai</i>
 	 */
-	public AbstractController(AbstractController parent){
-		if (parent != null) {
-			this.parent = parent;
-		}
-	}
+//	public AbstractController(AbstractController parent){
+//		if (parent != null) {
+//			this.parent = parent;
+//		}
+//	}
+        
+        public void setParentController(AbstractController parent) {
+            if (parent != null) {
+                this.parent = parent;
+            }
+        }
 	
 	/**
 	 * Registra uma <code>ação</code> a um componente <code>button</code>.
