@@ -34,7 +34,7 @@
 	</bean>
 	
 	<!-- Define a conexao com o banco de dados -->
-    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+    <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">
         <property name="driverClassName" value="org.hsqldb.jdbcDriver"/>
         <property name="url" value="jdbc:hsqldb:file:mercadoria"/>
         <property name="username" value="sa"/>

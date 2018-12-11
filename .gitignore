@@ -1,2 +1,7 @@
 /target
 
+/mercadoria.lck
+/mercadoria.log
+/mercadoria.properties
+/mercadoria.script
+/nbactions.xml
